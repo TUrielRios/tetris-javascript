@@ -6,16 +6,15 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #000;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
 }
 
 .game-container {
     border: 2px solid #fff;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding: 0;
+    text-align: center;
 }
 
 canvas {
@@ -28,6 +27,12 @@ canvas {
     font-size: 1.5em;
     margin: 10px 0;
     text-align: center;
+}
+
+.instructions {
+    color: white;
+    font-size: 1em;
+    margin: 20px 0;
 }
 
 .start-button {
